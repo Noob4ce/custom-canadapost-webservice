@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+      <key name="woocommerce_cpwebservice_service_labels">
+        <key name="*"/>
+  	  </key>
+    </admin-texts>    
+</wpml-config>
+
+

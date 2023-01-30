@@ -1,0 +1,2523 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Canada Post Shipping Plugin for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://truemedia.ca/plugins/cpwebservice/\n"
+"POT-Creation-Date: 2021-05-04 13:46-0400\n"
+"PO-Revision-Date: 2021-05-04 13:47-0400\n"
+"Last-Translator: TrueMedia <support@truemedia.ca>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Canada Post Webservice Method"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://truemedia.ca/plugins/cpwebservice/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Extends WooCommerce with Shipping Rates, Shipment Labels and Tracking from "
+"Canada Post via Webservices"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jamez Picard"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://truemedia.ca/"
+msgstr ""
+
+#: framework/orderdetails.php:47 framework/shippingmethod.php:103
+msgid "Are you sure you wish to delete?"
+msgstr "Êtes-vous certain de vouloir supprimer?"
+
+#: framework/orderdetails.php:49
+msgid "Are you sure you wish to remove this draft Shipment Package?"
+msgstr "Êtes-vous certain de vouloir supprimer ce brouillon d'envoi de paquet?"
+
+#: framework/orderdetails.php:263
+msgid "Order Shipping Details"
+msgstr "Détails d'envoi de la commande"
+
+#: framework/orderdetails.php:284 framework/orderdetails.php:379
+msgid "Guaranteed"
+msgstr "Garanti"
+
+#: framework/orderdetails.php:284 framework/orderdetails.php:379
+#: framework/shippingmethod.php:397 framework/shippingmethod.php:1893
+msgid "Delivered by"
+msgstr "Livré le"
+
+#: framework/orderdetails.php:285
+msgid "if mailed by"
+msgstr "Si posté le"
+
+#: framework/orderdetails.php:291
+msgid "Send From (Origin Address)"
+msgstr "Envoyer de (adresse de provenance)"
+
+#: framework/orderdetails.php:309
+msgid "No shipment information saved with order"
+msgstr "Aucune information d'envoi n'a été enregistrés avec la commande"
+
+#: framework/orderdetails.php:317
+msgid "Create New Shipment"
+msgstr "Créer un nouvel envoi"
+
+#: framework/orderdetails.php:327 framework/shippingmethod.php:1273
+msgid "Packages"
+msgstr "Paquets"
+
+#: framework/orderdetails.php:328
+msgid "to be shipped by"
+msgstr "À être envoyé le"
+
+#: framework/orderdetails.php:334 framework/shipments.php:354
+#: framework/shipments.php:363 framework/shipments.php:399
+msgid "Package"
+msgstr "Paquet"
+
+#: framework/orderdetails.php:334 framework/shipments.php:399
+#: framework/shippingmethod.php:1262 framework/shippingmethod.php:1273
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: framework/orderdetails.php:334 framework/shippingmethod.php:1273
+msgid "Shipping Weight"
+msgstr "Poids de l'envoi"
+
+#: framework/orderdetails.php:334
+msgid "Volume/Cubic"
+msgstr "Volume cubique"
+
+#: framework/orderdetails.php:335 framework/shipments.php:337
+#: framework/shipments.php:762
+msgid "Service"
+msgstr "Service"
+
+#: framework/orderdetails.php:336
+msgid "Products Packed"
+msgstr "Produits emballés"
+
+#: framework/orderdetails.php:351
+msgid "Shipment Label"
+msgstr "Étiquette d'envoi"
+
+#: framework/orderdetails.php:353 framework/shipments.php:188
+#: framework/shipments.php:701
+msgid "Create Shipment"
+msgstr "Créer un envoi"
+
+#: framework/orderdetails.php:354 framework/orderdetails.php:357
+#: framework/shippingmethod.php:256 framework/shippingmethod.php:469
+#: framework/shippingmethod.php:474 framework/shippingmethod.php:597
+#: framework/shippingmethod.php:748 framework/tracking.php:201
+msgid "Remove"
+msgstr "Supprimer"
+
+#: framework/orderdetails.php:361
+msgid "Box Name"
+msgstr "Nom de la boîte"
+
+#: framework/orderdetails.php:362
+msgid "Prepackaged"
+msgstr "Pré-emballés"
+
+#: framework/orderdetails.php:364 framework/shippingmethod.php:1276
+msgid "Actual"
+msgstr "Actuel"
+
+#: framework/orderdetails.php:378
+msgid "My Cost"
+msgstr "Mon coût"
+
+#: framework/orderdetails.php:438
+msgid "No information available"
+msgstr "Aucune information n'est disponible"
+
+#: framework/orderdetails.php:510
+msgid " Database issue: "
+msgstr ""
+
+#: framework/orderdetails.php:512
+msgid " The plugin had problems creating the database tables as needed."
+msgstr ""
+
+#: framework/orderdetails.php:514
+msgid " The database user needs permission to create the table."
+msgstr ""
+
+#: framework/orderdetails.php:552 framework/shipments.php:1946
+msgid "Success! Draft shipment was deleted."
+msgstr "Succès! Le brouillon d'expédition a été supprimé."
+
+#: framework/orderdetails.php:555 framework/shipments.php:1950
+msgid "Error: Cannot remove. Shipment label has already been created."
+msgstr ""
+"Erreur : impossible de supprimer. L'étiquette d'expédition a déjà été créé."
+
+#: framework/orderdetails.php:670
+msgid "Update will complete soon."
+msgstr ""
+
+#: framework/orderdetails.php:679 framework/tracking.php:410
+msgid "Complete."
+msgstr ""
+
+#: framework/plugin.php:210 framework/plugin.php:212
+#: framework/shippingmethod.php:137 framework/shippingmethod.php:145
+msgid "Settings"
+msgstr "Paramètres "
+
+#: framework/plugin.php:214
+msgid "Support"
+msgstr "Support"
+
+#: framework/plugin.php:215
+msgid "Write a Review"
+msgstr "Écrire un avis"
+
+#: framework/plugin.php:228
+msgid "Products"
+msgstr "Produits"
+
+#: framework/plugin.php:264
+msgid "Zip / Postal Code is required to calculate shipping"
+msgstr ""
+"Le zip ou code postal est requis afin de calculer les frais d'expédition"
+
+#: framework/products.php:62 framework/products.php:187
+msgid "Package Separately (Pre-packaged)"
+msgstr "Emballer individuellement (pré-emballés)"
+
+#: framework/products.php:64
+msgid ""
+"If this is selected, this item will not be placed in any box but assumed "
+"already packed and ready to ship when calculating rates with"
+msgstr ""
+
+#: framework/products.php:73 framework/products.php:197
+msgid "Sender Address/Warehouse"
+msgstr "Adresse ou entrepôt de l'expéditeur"
+
+#: framework/products.php:74 framework/products.php:198
+msgid "Any Sender Address/Warehouse"
+msgstr "Adresse ou entrepôt de tous expéditeurs"
+
+#: framework/products.php:79 framework/products.php:197
+msgid ""
+"Limit this item to only be shipped from selected Address/Warehouses. Default "
+"is allow from all."
+msgstr ""
+
+#: framework/products.php:93 framework/products.php:218
+msgid "Customs HS Code"
+msgstr "Code SH des douanes"
+
+#: framework/products.php:93 framework/products.php:218
+#: framework/shipments.php:672
+msgid "HS Code Search"
+msgstr "Trouver le code SH"
+
+#: framework/products.php:97 framework/products.php:103
+#: framework/products.php:225
+msgid ""
+"This value will be populated for this product on the Shipment Label Form for "
+msgstr ""
+
+#: framework/products.php:99 framework/products.php:223
+#: framework/shippingmethod.php:880
+msgid "Customs"
+msgstr "Douanes"
+
+#: framework/products.php:99 framework/products.php:223
+msgid "Product"
+msgstr ""
+
+#: framework/products.php:99 framework/products.php:223
+#: framework/shipments.php:619
+msgid "Description"
+msgstr "Description"
+
+#: framework/products.php:105 framework/products.php:227
+#: framework/shipments.php:641
+msgid "Country of Origin"
+msgstr "Pays d'origine"
+
+#: framework/products.php:116 framework/products.php:238
+#: framework/shipments.php:652
+msgid "Province of Origin"
+msgstr "Province d'origine "
+
+#: framework/products.php:220
+msgid ""
+"This value will be populated for this product on the Shipment label form for "
+msgstr ""
+
+#: framework/resources.php:20
+msgid "(ie. if Ground and Express are same cost, keep the Express Service.)"
+msgstr ""
+"(ex. : si le coût terrestre et le coût express sont les mêmes, utilisez le "
+"coût express.)"
+
+#: framework/resources.php:21 framework/shippingmethod.php:750
+msgid "Lettermail"
+msgstr "Lettres"
+
+#: framework/resources.php:30
+msgid "Warning: Postal Code is invalid."
+msgstr "Avertissement : code postal non valide."
+
+#: framework/shipments.php:91
+msgid "Are you sure you wish to apply this?"
+msgstr "Êtes-vous certain de vouloir appliquer cela?"
+
+#: framework/shipments.php:93
+msgid "Saved Shipment as Draft"
+msgstr "Expédition enregistrée en tant que brouillon"
+
+#: framework/shipments.php:94
+msgid "Submitted Shipment"
+msgstr "Expédition soumise"
+
+#: framework/shipments.php:94
+msgid "Please check required fields."
+msgstr "SVP veuillez vérifier les champs obligatoires."
+
+#: framework/shipments.php:95
+msgid "Are you sure you wish to request a refund of this Shipment/Label?"
+msgstr ""
+"Êtes-vous certain de vouloir demander un remboursement pour cet expédition/"
+"étiquette?"
+
+#: framework/shipments.php:95
+msgid "Submitted Refund"
+msgstr "Remboursement soumis"
+
+#: framework/shipments.php:96
+msgid "Please enter a name for the template"
+msgstr "SVP donnez un nom au modèle"
+
+#: framework/shipments.php:96 framework/shipments.php:1978
+#: framework/shippingmethod.php:866
+msgid "Template"
+msgstr "Modèle"
+
+#: framework/shipments.php:96
+msgid "Saved Template"
+msgstr "Modèle enregistré"
+
+#: framework/shipments.php:96
+msgid "Are you sure you wish to apply this Template?"
+msgstr "Êtes-vous certain de vouloir appliquer ce modèle?"
+
+#: framework/shipments.php:96
+msgid "Are you sure you wish to remove this?"
+msgstr "Êtes-vous certain de vouloir supprimer cela?"
+
+#: framework/shipments.php:123 framework/shipments.php:322
+#: framework/shipments.php:869 framework/shipments.php:924
+#: framework/shipments.php:976 framework/tracking.php:189
+msgid "Shipment"
+msgstr "Expédition"
+
+#: framework/shipments.php:139
+msgid "Print Shipment Label"
+msgstr "Imprimer l'étiquette d'expédition"
+
+#: framework/shipments.php:142
+msgid "Refund Shipment Label"
+msgstr "Rembourser l'étiquette d'expédition"
+
+#: framework/shipments.php:194
+msgid ""
+"Please ensure you have set up your account details to create paid shipping "
+"labels."
+msgstr ""
+"SVP assurez-vous d'avoir configuré les informations de votre compte afin de "
+"créer des étiquettes d'expédition payés."
+
+#: framework/shipments.php:196
+msgid "Production/Live Mode"
+msgstr "Production / mode en direct"
+
+#: framework/shipments.php:197
+msgid ""
+"This function will create a paid shipping label that will be billed to your "
+"account."
+msgstr ""
+"Cette fonction va créer une étiquette d'expédition payée qui sera facturée à "
+"votre compte."
+
+#: framework/shipments.php:199 framework/shippingmethod.php:225
+msgid "Development Mode"
+msgstr "Mode Debug"
+
+#: framework/shipments.php:200
+msgid "Only test labels will be created."
+msgstr "Seulement les étiquettes de test seront créées."
+
+#: framework/shipments.php:204
+msgid ""
+"As a Contract customer, shipments will be transmitted immediately and will "
+"not need a Manifest document. If you use traditional contract shipping and "
+"manifest processes (e.g. you ship more than 50 parcels per day from a "
+"central warehouse), this process will not work. Manifest support will be "
+"added to this plugin soon."
+msgstr ""
+"En tant que client sous contrat, les livraisons seront transmises "
+"immédiatement et n'auront pas besoin d'un document manifeste. Si vous "
+"utilisez le contrat traditionnel d'envoi et des processus manifestes (par "
+"exemple, vous expédiez plus de 50 colis par jour à partir d'un entrepôt "
+"central), ce processus ne fonctionnera pas. Le soutien pour les manifestes "
+"sera ajouté à ce plugin bientôt."
+
+#: framework/shipments.php:212
+msgid "Shipment template"
+msgstr "Modèle d'expédition"
+
+#: framework/shipments.php:215
+msgid "Add current form as Template"
+msgstr "Ajouter le présent formulaire en tant que modèle"
+
+#: framework/shipments.php:237 framework/shippingmethod.php:241
+#: framework/shippingmethod.php:255
+msgid "Sender Address"
+msgstr "Adresse de l'expéditeur"
+
+#: framework/shipments.php:260 framework/shipments.php:699
+msgid "Please enter your Sender Address information in the plugin settings."
+msgstr "SVP entrer votre adresse d'expéditeur dans les paramètres du plug-in."
+
+#: framework/shipments.php:266
+msgid "Shipping Point"
+msgstr "Point d'expédition"
+
+#: framework/shipments.php:268
+msgid "Drop off at %s Location"
+msgstr "Livrer à l'emplacement : %s"
+
+#: framework/shipments.php:270
+msgid "%s to Pickup"
+msgstr "%s pour ramasser"
+
+#: framework/shipments.php:275
+msgid "Dropoff Location (Optional)"
+msgstr "Point de chute (Optionnel)"
+
+#: framework/shipments.php:277
+msgid "4-digit Site #"
+msgstr "4 chiffres du site #"
+
+#: framework/shipments.php:280
+msgid "Lookup Dropoff Location"
+msgstr "Rechercher un point de chute"
+
+#: framework/shipments.php:290
+msgid "Recipient Name"
+msgstr "Nom du destinataire"
+
+#: framework/shipments.php:290
+msgid "Ship-to Address"
+msgstr "Adresse où il sera livré"
+
+#: framework/shipments.php:293
+msgid ""
+"If you need to change this Destination address, please update the Shipping "
+"address on the Order"
+msgstr ""
+"Si vous avez besoin de changer cette adresse de destination, SVP mettre à "
+"jour l'adresse de livraison sur la commande"
+
+#: framework/shipments.php:297
+msgid "Recipient Phone"
+msgstr "Téléphone du destinataire"
+
+#: framework/shipments.php:303
+msgid "Recipient Email"
+msgstr "Courriel du destinataire"
+
+#: framework/shipments.php:311
+msgid "Email on Shipment"
+msgstr "Courriel pour l'envoi"
+
+#: framework/shipments.php:312
+msgid "Email if Exception"
+msgstr "Courriel s'il y a un exception"
+
+#: framework/shipments.php:313
+msgid "Email on Delivery"
+msgstr "Courriel pour la livraison"
+
+#: framework/shipments.php:314
+msgid "Email will be delivered to email address above."
+msgstr "Un courriel sera envoyé à l'adresse du courriel ci-dessus."
+
+#: framework/shipments.php:327
+msgid "Transmit Method"
+msgstr "Méthode de transmission"
+
+#: framework/shipments.php:330
+msgid "Transmit immediately"
+msgstr "Transmettre immédiatement"
+
+#: framework/shipments.php:331
+msgid "Use Manifest - (Feature coming soon.)"
+msgstr "Utiliser un Manifeste - (fonctionnalité à venir)"
+
+#: framework/shipments.php:354
+msgid "Type"
+msgstr "Type"
+
+#: framework/shipments.php:363 framework/shippingmethod.php:637
+#: framework/shippingmethod.php:1262 models/woocommerce_cpwebservice.php:44
+#: models/woocommerce_cpwebservice.php:45
+#: models/woocommerce_cpwebservice.php:46
+#: models/woocommerce_cpwebservice.php:50
+#: models/woocommerce_cpwebservice.php:51
+#: models/woocommerce_cpwebservice.php:52
+#: models/woocommerce_cpwebservice.php:53
+#: models/woocommerce_cpwebservice.php:56
+#: models/woocommerce_cpwebservice.php:57
+#: models/woocommerce_cpwebservice.php:58
+#: models/woocommerce_cpwebservice.php:59
+#: models/woocommerce_cpwebservice.php:60
+#: models/woocommerce_cpwebservice.php:61
+#: models/woocommerce_cpwebservice.php:62
+#: models/woocommerce_cpwebservice.php:65
+msgid "Weight"
+msgstr "Poids"
+
+#: framework/shipments.php:376
+msgid "Use box dimensions"
+msgstr "Utiliser les dimensions de la boîte"
+
+#: framework/shipments.php:386 framework/shippingmethod.php:597
+msgid "Box"
+msgstr "Boites"
+
+#: framework/shipments.php:405 framework/shippingmethod.php:602
+#: framework/shippingmethod.php:639 models/woocommerce_cpwebservice.php:44
+#: models/woocommerce_cpwebservice.php:45
+#: models/woocommerce_cpwebservice.php:46
+#: models/woocommerce_cpwebservice.php:50
+#: models/woocommerce_cpwebservice.php:51
+#: models/woocommerce_cpwebservice.php:52
+#: models/woocommerce_cpwebservice.php:53
+#: models/woocommerce_cpwebservice.php:56
+#: models/woocommerce_cpwebservice.php:57
+#: models/woocommerce_cpwebservice.php:58
+#: models/woocommerce_cpwebservice.php:59
+#: models/woocommerce_cpwebservice.php:60
+#: models/woocommerce_cpwebservice.php:61
+#: models/woocommerce_cpwebservice.php:62
+#: models/woocommerce_cpwebservice.php:65
+msgid "Length"
+msgstr "Longueur "
+
+#: framework/shipments.php:412 framework/shippingmethod.php:603
+#: framework/shippingmethod.php:640 models/woocommerce_cpwebservice.php:50
+#: models/woocommerce_cpwebservice.php:51
+#: models/woocommerce_cpwebservice.php:57
+#: models/woocommerce_cpwebservice.php:58
+#: models/woocommerce_cpwebservice.php:61
+msgid "Width"
+msgstr "Largeur"
+
+#: framework/shipments.php:419 framework/shippingmethod.php:604
+#: framework/shippingmethod.php:641 models/woocommerce_cpwebservice.php:50
+#: models/woocommerce_cpwebservice.php:51
+#: models/woocommerce_cpwebservice.php:57
+#: models/woocommerce_cpwebservice.php:58
+#: models/woocommerce_cpwebservice.php:61
+msgid "Height"
+msgstr "Hauteur"
+
+#: framework/shipments.php:434
+msgid "Tracking Information"
+msgstr "Information de repérage"
+
+#: framework/shipments.php:438
+msgid "Reference number"
+msgstr "Numéro de réference"
+
+#: framework/shipments.php:439
+msgid "up to 35 characters"
+msgstr "jusqu'à 35 caractères"
+
+#: framework/shipments.php:445
+msgid "Cost centre reference"
+msgstr "Centre de référence de coût"
+
+#: framework/shipments.php:451
+msgid "Additional reference number"
+msgstr "Numéro de référence supplémentaire"
+
+#: framework/shipments.php:462
+msgid "Options"
+msgstr "Options"
+
+#: framework/shipments.php:465
+msgid "Signature"
+msgstr "Signature"
+
+#: framework/shipments.php:466
+msgid "Delivery Confirmation"
+msgstr "Confirmation de livraison"
+
+#: framework/shipments.php:467
+msgid "Show Packing instructions on Mailing Label"
+msgstr "Afficher les instructions d'emballage sur l'étiquette d'expédition"
+
+#: framework/shipments.php:468
+msgid "Show Postage Rate on Mailing Label"
+msgstr "Montrer le tarif postal sur l'étiquette d'expédition"
+
+#: framework/shipments.php:469
+msgid "Display Insured value on Mailing Label"
+msgstr "Afficher la valeur assurée sur l'étiquette d'expédition"
+
+#: framework/shipments.php:474
+msgid "Requirement Option"
+msgstr "Option des exigences"
+
+#: framework/shipments.php:484
+msgid "Delivery Option"
+msgstr "Option d'expédition"
+
+#: framework/shipments.php:495
+msgid "Insurance Coverage"
+msgstr "Couverture d'assurance"
+
+#: framework/shipments.php:503
+msgid "Printing Format"
+msgstr "Format d'impression"
+
+#: framework/shipments.php:506
+msgid "8.5x10 PDF"
+msgstr "8.5x10 PDF"
+
+#: framework/shipments.php:507
+msgid "4x6 PDF"
+msgstr "4x6 PDF"
+
+#: framework/shipments.php:512 framework/shipments.php:811
+msgid "Payment Method"
+msgstr "Mode de Paiement"
+
+#: framework/shipments.php:515
+msgid "Credit Card"
+msgstr "Carte de Crédit"
+
+#: framework/shipments.php:516
+msgid "Account"
+msgstr "Compte client"
+
+#: framework/shipments.php:522
+msgid "Promotional discount code"
+msgstr "Code promotionnel de rabais"
+
+#: framework/shipments.php:533
+msgid "Border Customs"
+msgstr "Douanes Frontalières"
+
+#: framework/shipments.php:537
+msgid "Currency"
+msgstr "Devise"
+
+#: framework/shipments.php:540
+msgid "CAD - Canadian Dollars"
+msgstr "CAD - Dollars canadiens"
+
+#: framework/shipments.php:541
+msgid "USD - US Dollars"
+msgstr "USD - Dollars US"
+
+#: framework/shipments.php:544
+msgid "Conversion rate from CAD to the currency above"
+msgstr ""
+
+#: framework/shipments.php:550
+msgid "Reason for Export"
+msgstr "Raison de l'exportation"
+
+#: framework/shipments.php:554
+msgid "Gift"
+msgstr "Cadeau"
+
+#: framework/shipments.php:555
+msgid "Document"
+msgstr "Document"
+
+#: framework/shipments.php:556
+msgid "Commercial sample"
+msgstr "Échantillon commercial"
+
+#: framework/shipments.php:557
+msgid "Repair or warranty"
+msgstr "Réparation ou garantie"
+
+#: framework/shipments.php:558
+msgid "Sale of goods"
+msgstr "Vente de marchandise"
+
+#: framework/shipments.php:559
+msgid "Other (Please specify)"
+msgstr "Autre (Veuillez spécifier)"
+
+#: framework/shipments.php:562
+msgid "Other"
+msgstr "Autre"
+
+#: framework/shipments.php:568
+msgid "Non-Delivery"
+msgstr "Échec de la livraison"
+
+#: framework/shipments.php:572
+msgid "Return at Sender’s Expense"
+msgstr "Retourner aux frais de l'expéditeur"
+
+#: framework/shipments.php:573
+msgid "Return to Sender"
+msgstr "Retourner à l'expéditeur"
+
+#: framework/shipments.php:574
+msgid "Abandon"
+msgstr "Abandonner"
+
+#: framework/shipments.php:579
+msgid "Invoice No."
+msgstr "Numéro de facture"
+
+#: framework/shipments.php:585
+msgid "Number of the government or agency certificate or permit"
+msgstr "Numéro de certificat ou de permis du gouvernement ou agence "
+
+#: framework/shipments.php:588 framework/shipments.php:595
+msgid "If required by customs at the destination"
+msgstr "Si requis par les douanes de la destination"
+
+#: framework/shipments.php:592
+msgid "The number of the government or agency import or export licence"
+msgstr ""
+"Le numéro de licence d'importation ou d'exportation du gouvernement ou agence"
+
+#: framework/shipments.php:599
+msgid "Contents"
+msgstr "Contenus"
+
+#: framework/shipments.php:611 framework/shipments.php:637
+#: framework/shipments.php:641
+msgid "Optional"
+msgstr "Optionnel"
+
+#: framework/shipments.php:611
+msgid "Sku"
+msgstr "UGS"
+
+#: framework/shipments.php:615
+msgid "Quantity"
+msgstr "Quantité"
+
+#: framework/shipments.php:623
+msgid "Unit Value"
+msgstr "Valeur de l'unité"
+
+#: framework/shipments.php:630
+msgid "Unit Weight"
+msgstr "Poids de l'unité"
+
+#: framework/shipments.php:637
+msgid "HS Code"
+msgstr "Code SH"
+
+#: framework/shipments.php:670 framework/shippingmethod.php:313
+#: framework/shippingmethod.php:613 framework/shippingmethod.php:791
+#: framework/shippingmethod.php:1382
+msgid "Add More"
+msgstr "Ajouter plus"
+
+#: framework/shipments.php:683
+msgid "Summary"
+msgstr "Résumé"
+
+#: framework/shipments.php:688
+msgid "Refresh"
+msgstr "Actualiser"
+
+#: framework/shipments.php:696 framework/shipments.php:724
+#: framework/shipments.php:960 framework/shippingmethod.php:910
+msgid "Cancel"
+msgstr "Annuler"
+
+#: framework/shipments.php:697
+msgid "Save as Draft"
+msgstr "Enregistrer comme brouillon"
+
+#: framework/shipments.php:720
+msgid "Order not found.  Please check your link or reload the page."
+msgstr ""
+"Commande introuvable. Veuiller vérifier votre lien ou recharger la page."
+
+#: framework/shipments.php:768
+msgid "Delivery Guarantee"
+msgstr "Garantie de livraison"
+
+#: framework/shipments.php:774
+msgid "Base"
+msgstr "Base"
+
+#: framework/shipments.php:778
+msgid "Tax (GST)"
+msgstr "Taxe (TPS)"
+
+#: framework/shipments.php:783
+msgid "Tax (HST)"
+msgstr "Taxe (TVH)"
+
+#: framework/shipments.php:788
+msgid "Tax (PST)"
+msgstr "Taxe (TVP)"
+
+#: framework/shipments.php:795 framework/shipments.php:803
+msgid "Fee"
+msgstr "Frais"
+
+#: framework/shipments.php:808
+msgid "Grand Total (CAD)"
+msgstr "Grand total (CAD)"
+
+#: framework/shipments.php:823
+msgid "The selected service did not have rates for the package entered"
+msgstr "Le service sélectionné n'a pas de tarifs pour le paquet saisi"
+
+#: framework/shipments.php:828
+msgid "Try selecting a different service or options."
+msgstr ""
+
+#: framework/shipments.php:830
+msgid "Summary Pending.."
+msgstr "Résumé en instance.."
+
+#: framework/shipments.php:833
+msgid "Please choose a Shipping Service / Method"
+msgstr "SVP veuiller choisir un service d'expédition/méthode"
+
+#: framework/shipments.php:874 framework/shipments.php:930
+#: framework/shipments.php:981
+msgid "Tracking number"
+msgstr "Numéro de repérage"
+
+#: framework/shipments.php:880
+msgid "Created on"
+msgstr "Créé le"
+
+#: framework/shipments.php:884 framework/shipments.php:934
+#: framework/shipments.php:985
+msgid "Shipment from"
+msgstr "Envoi de"
+
+#: framework/shipments.php:889 framework/shipments.php:936
+#: framework/shipments.php:987 framework/shippingmethod.php:753
+#: framework/shippingmethod.php:1273
+msgid "Destination"
+msgstr "Destination"
+
+#: framework/shipments.php:898 framework/shippingmethod.php:751
+msgid "Cost"
+msgstr "Coût"
+
+#: framework/shipments.php:899
+msgid "Billed to"
+msgstr "Facturé à"
+
+#: framework/shipments.php:905
+msgid "Download Shipping Label PDF"
+msgstr "Télécharger l'étiquette d'expédition en PDF"
+
+#: framework/shipments.php:943
+msgid "Request Refund for Shipment"
+msgstr "Demander un remboursement pour l'expédition"
+
+#: framework/shipments.php:946
+msgid ""
+"Use this form to request a refund for a shipment/label that you created in "
+"error. You can only request a refund for a shipment that has not been sent "
+"and has no scan events associated with the label."
+msgstr ""
+"Utiliser ce formulaire pour demander un remboursement pour un envoi ou une "
+"étiquette que vous avez créé par erreur. Vous pouvez seulement demander un "
+"remboursement pour un envoi qui n'a pas été envoyé et dont l'étiquette n'a "
+"pas été scannée."
+
+#: framework/shipments.php:951
+msgid "Email for notification of successful refund"
+msgstr "Courriel de notification d'un remboursement réussi"
+
+#: framework/shipments.php:959
+msgid "Request Refund"
+msgstr "Demander un remboursement"
+
+#: framework/shipments.php:994
+msgid "Request Refund Complete"
+msgstr "Demande d'un remboursement complet"
+
+#: framework/shipments.php:995
+msgid "Request has been sent."
+msgstr "La demande a été envoyée."
+
+#: framework/shipments.php:996
+msgid "Service Ticket"
+msgstr "Billet de service"
+
+#: framework/shipments.php:997
+msgid "Date"
+msgstr "Date"
+
+#: framework/shipments.php:998
+msgid "Email to be Notified"
+msgstr "Courriel à être avisé"
+
+#: framework/shipments.php:1089
+msgid "Error occured. Error details has been logged. "
+msgstr ""
+"Une erreur est survenue. Les détails de l'erreur ont été enregistrés dans un "
+"journal."
+
+#: framework/shipments.php:1092
+msgid "HTTP Connection or timeout error occured."
+msgstr "Une erreur de connection ou de temporisation HTTP est survenue"
+
+#: framework/shipments.php:1102
+msgid "Error occured. Error details has been logged."
+msgstr ""
+"Une erreur est survenue. Les détails de l'erreur ont été enregistrés dans un "
+"journal."
+
+#: framework/shipments.php:1617
+msgid "Shipment Log at"
+msgstr "Registre d'expédition au"
+
+#: framework/shipments.php:1619
+msgid "Request / API Response"
+msgstr "Requête d'une réponse API"
+
+#: framework/shipments.php:1636
+msgid ""
+"No log information.. yet.  Go to an order and click on the \"Create Shipment"
+"\" button."
+msgstr ""
+"Aucun registre d'information jusqu'à présent. Allez dans une commande et "
+"cliquez sur le bouton « Créer l'envoi »."
+
+#: framework/shipments.php:1732
+msgid "PDF file not found. "
+msgstr "Fichier PDF non trouvé."
+
+#: framework/shipments.php:1898 framework/shipments.php:1904
+msgid "Error: Refund request was invalid."
+msgstr "Erreur : la demande de remboursement était invalide."
+
+#: framework/shipments.php:1899 framework/shipments.php:1905
+msgid "Please request a refund by contacting"
+msgstr "SVP demander un remboursement en communiquant avec"
+
+#: framework/shipments.php:1911
+msgid "Error: Cannot refund. Shipment label has not been created."
+msgstr ""
+"Erreur : impossible de rembourser. L'étiquette de livraison n'a pas été créé."
+
+#: framework/shippingmethod.php:138
+msgid "Shipping Rates / Boxes"
+msgstr "Frais d'expédition / boîtes"
+
+#: framework/shippingmethod.php:139
+msgid "Lettermail/Flat Rates"
+msgstr "Tarifs uniformes / lettre"
+
+#: framework/shippingmethod.php:140 framework/shippingmethod.php:226
+msgid "Shipment Labels"
+msgstr "Étiquettes d'expédition"
+
+#: framework/shippingmethod.php:141 framework/shippingmethod.php:650
+msgid "Tracking"
+msgstr "Repérage"
+
+#: framework/shippingmethod.php:142 framework/shippingmethod.php:893
+msgid "Updates"
+msgstr ""
+
+#: framework/shippingmethod.php:149 framework/shippingmethod.php:151
+#: framework/shippingmethod.php:155
+msgid "Enable/Disable"
+msgstr "Activer / Désactiver"
+
+#: framework/shippingmethod.php:153
+msgid "Enable %s Webservice"
+msgstr "Activer le service Web de %s"
+
+#: framework/shippingmethod.php:157
+msgid "Enable Creation of Shipment Labels"
+msgstr "Activer la création des étiquettes d'expédition"
+
+#: framework/shippingmethod.php:160
+msgid "Enable %s Tracking number feature on Orders"
+msgstr ""
+"Activer la fonctionnalité de numéro de repérage de %s sur les commandes"
+
+#: framework/shippingmethod.php:165
+msgid "Method Title"
+msgstr "Titre de la méthode"
+
+#: framework/shippingmethod.php:167
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Ceci contrôle le titre que l'utilisateur voit pendant qu'il passe la "
+"commande."
+
+#: framework/shippingmethod.php:171
+msgid "Webservice Account Settings"
+msgstr "Paramètres du compte du service Web"
+
+#: framework/shippingmethod.php:174
+msgid "Customer Account Number"
+msgstr "Numéro de compte du client"
+
+#: framework/shippingmethod.php:178
+msgid "Personal/Small Business Customer"
+msgstr "Programme « Solutions pour petites entreprises »"
+
+#: framework/shippingmethod.php:180
+msgid "Commercial/Contract Customer"
+msgstr "Client commercial ou à contrats"
+
+#: framework/shippingmethod.php:183
+msgid "Contract ID (Optional, Only if a Contract Customer)"
+msgstr "ID de contrat (optionel, pour clients à contrats seulement)"
+
+#: framework/shippingmethod.php:185
+msgid "Production Credentials"
+msgstr "Certificat d'identité de production"
+
+#: framework/shippingmethod.php:186 framework/shippingmethod.php:199
+msgid "API Username"
+msgstr "Nom d'utilisateur de l'API"
+
+#: framework/shippingmethod.php:189 framework/shippingmethod.php:202
+msgid "API Password/Key"
+msgstr "Mot de passe / clé de l'API"
+
+#: framework/shippingmethod.php:191 framework/shippingmethod.php:204
+msgid "Validate Credentials"
+msgstr "Valider le certificat d'identité"
+
+#: framework/shippingmethod.php:196 framework/shippingmethod.php:199
+#: framework/shippingmethod.php:202 framework/shippingmethod.php:214
+#: framework/shippingmethod.php:228
+msgid "Development"
+msgstr "Programmation"
+
+#: framework/shippingmethod.php:198
+msgid "Development Credentials"
+msgstr "Certificat d'identité de développement"
+
+#: framework/shippingmethod.php:209 framework/shippingmethod.php:211
+msgid "Webservice API Mode"
+msgstr "Mode API du service Web"
+
+#: framework/shippingmethod.php:212
+msgid "Rates Lookup / Tracking"
+msgstr "Recherche des tarifs et repérage"
+
+#: framework/shippingmethod.php:215 framework/shippingmethod.php:229
+msgid "Production/Live"
+msgstr "Production /en direct"
+
+#: framework/shippingmethod.php:218 framework/shippingmethod.php:232
+msgid "Test Mode"
+msgstr "Mode Test"
+
+#: framework/shippingmethod.php:218
+msgid "Rates will not reflect actual account prices. Tracking disabled."
+msgstr ""
+"Les tarifs ne reflètent pas les prix réels du compte. Le repérage est "
+"désactivé."
+
+#: framework/shippingmethod.php:221 framework/shippingmethod.php:235
+msgid "Live Mode"
+msgstr "Mode en direct"
+
+#: framework/shippingmethod.php:221
+msgid "Rates reflect your account prices. Package Tracking is available."
+msgstr ""
+"Les tarifs reflètent vos prix réels du compte. Le repérage est disponible."
+
+#: framework/shippingmethod.php:232
+msgid "Only test labels will be created"
+msgstr "Seulement des étiquettes de test seront créés."
+
+#: framework/shippingmethod.php:235
+msgid "Paid shipping labels can be created and will be billed to your account"
+msgstr ""
+"Des étiquettes d'expédition payées peuvent être créés et seront facturées à "
+"votre compte"
+
+#: framework/shippingmethod.php:257
+msgid ""
+"Source address to be used for Rates lookup and Sender Address to be printed "
+"on Shipment label"
+msgstr ""
+"L'adresse d'origine à être utilisée pour la recherche des tarifs et "
+"l'adresse de l'expéditeur à être imprimé sur l'étiquette d'expédition"
+
+#: framework/shippingmethod.php:260
+msgid "Sender Zip/Postal Code"
+msgstr "Zip code ou code postal de l'expéditeur"
+
+#: framework/shippingmethod.php:260
+msgid "Required"
+msgstr "Requis"
+
+#: framework/shippingmethod.php:262
+msgid "Approximate Latitude/Longitude"
+msgstr "Latitude et longitude approximative"
+
+#: framework/shippingmethod.php:264
+msgid "Rates lookup require an Origin Postal Code"
+msgstr "La recherche des tarifs nécessite un code postal d'origine"
+
+#: framework/shippingmethod.php:266
+msgid "Use as Origin Postal Code for Rates Lookup"
+msgstr "Utiliser comme code postal d'origine pour la recherche des tarifs"
+
+#: framework/shippingmethod.php:269
+msgid "Sender Contact Name/Company"
+msgstr "Nom de l'expéditeur ou de la compagnie"
+
+#: framework/shippingmethod.php:272
+msgid "Contact Phone"
+msgstr "Numéro de téléphone de contact"
+
+#: framework/shippingmethod.php:275
+msgid "Address"
+msgstr "Adresse"
+
+#: framework/shippingmethod.php:278
+msgid "Address2"
+msgstr "Adresse2"
+
+#: framework/shippingmethod.php:281
+msgid "City"
+msgstr "Ville"
+
+#: framework/shippingmethod.php:289
+msgid "State/Province"
+msgstr "État ou province"
+
+#: framework/shippingmethod.php:299 framework/shippingmethod.php:1273
+msgid "Country"
+msgstr "Pays"
+
+#: framework/shippingmethod.php:307
+msgid "Default Sending Address"
+msgstr "Adresse par défaut de l'expéditeur"
+
+#: framework/shippingmethod.php:317
+msgid "Origin Postal Code"
+msgstr "Code postal d'origine"
+
+#: framework/shippingmethod.php:320
+msgid "Use multiple Origin Postal Codes for Rates Lookup"
+msgstr ""
+"Utiliser plusieurs codes postaux d'origines pour la recherche des tarifs"
+
+#: framework/shippingmethod.php:323
+msgid ""
+"Limit Sending Address/Warehouses on Products (Enables selection on Product "
+"Edit page)"
+msgstr ""
+"Limite d'envoi d'adresse ou d'entrepôt sur les produits (activer la "
+"sélection sur la page d'édition des produits)"
+
+#: framework/shippingmethod.php:328
+msgid "The Postal Code that items will be shipped from."
+msgstr "Le code postal de l'expéditeur"
+
+#: framework/shippingmethod.php:342
+msgid "Rates Lookup"
+msgstr "Rechercher des tarifs"
+
+#: framework/shippingmethod.php:346 framework/shippingmethod.php:850
+msgid "Logging"
+msgstr "Connexion"
+
+#: framework/shippingmethod.php:350
+msgid "Enable Rates Lookup Logging"
+msgstr "Activer la connexion pour la recherche des tarifs"
+
+#: framework/shippingmethod.php:351
+msgid ""
+"Captures most recent shipping rate lookup.  Recommended to be disabled when "
+"website development is complete. This option does not display any messages "
+"on frontend."
+msgstr ""
+"Saisi les recherches de tarifs les plus récentes. Il est recommandé de "
+"désactiver cette option quand le développement du site est terminé. Cette "
+"option n'affiche pas de message frontal."
+
+#: framework/shippingmethod.php:353
+msgid "Display most recent request"
+msgstr "Afficher les requêtes les plus récentes"
+
+#: framework/shippingmethod.php:364
+msgid "Exchange Rate"
+msgstr "Taux de change"
+
+#: framework/shippingmethod.php:366
+msgid "Currency Conversion (ex. CAD to USD)"
+msgstr "Conversion de devises (ex. CAD à USD)"
+
+#: framework/shippingmethod.php:367
+msgid "Woocommerce Currency"
+msgstr "Devise \"Woocommerce\""
+
+#: framework/shippingmethod.php:369
+msgid ""
+"Exchange Rate (Percentage. ex. 0.85). It adjusts the Shipping Cost by "
+"multiplying by the rate."
+msgstr ""
+"Taux de change (pourcentage. ex.: 0,85). Cela ajuste les frais d'expédition "
+"en le multipliant par le taux."
+
+#: framework/shippingmethod.php:373
+msgid "Add Margin"
+msgstr "Ajouter une marge"
+
+#: framework/shippingmethod.php:375
+msgid "Margin can be % or Amount to adjust the shipping rate"
+msgstr "La marge ajustant les frais d'expédition peut être un % ou un montant"
+
+#: framework/shippingmethod.php:376
+msgid "Add Margin Percentage (ex. 5% or -2%) to Shipping Cost"
+msgstr "Ajouter un pourcentage (ex.: 5% ou -2%) aux frais d'expédition"
+
+#: framework/shippingmethod.php:377
+msgid "Add Margin Amount (ex. $4 or -$1) to Shipping Cost"
+msgstr "Ajouter un montant (ex.: 4$ ou -1$) aux frais d'expédition"
+
+#: framework/shippingmethod.php:381
+msgid "Delivery Dates"
+msgstr "Dates de livraison"
+
+#: framework/shippingmethod.php:384
+msgid "Enable Estimated Delivery Dates"
+msgstr "Activer les dates de livraison estimées"
+
+#: framework/shippingmethod.php:386
+msgid "Show Estimated Delivery only on Guaranteed Services"
+msgstr ""
+"Afficher les dates de livraison estimées seulement sur les services garantis"
+
+#: framework/shippingmethod.php:387
+msgid ""
+"Number of Days to Ship after order placed.  Used to calculate date mailed."
+msgstr ""
+"Nombre de jours pour expédier après avoir passé la commande. Est utilisé "
+"pour calculer la date d'expédition."
+
+#: framework/shippingmethod.php:389
+msgid "Default (ex: 2020-02-29)"
+msgstr "Par défaut (ex.: 2020-02-29)"
+
+#: framework/shippingmethod.php:390
+msgid "Full Date (ex: Monday Feb 29, 2020)"
+msgstr "Date complète (ex.: lundi fév. 29 2020)"
+
+#: framework/shippingmethod.php:391
+msgid "Full Date (ex: Mon Feb 29, 2020)"
+msgstr "Date complète (ex.: lun. fév. 29, 2020)"
+
+#: framework/shippingmethod.php:392
+msgid "Full Date (ex: Mon 29 Feb 2020)"
+msgstr "Date complète (ex.: lun. 29 fév. 2020)"
+
+#: framework/shippingmethod.php:393
+msgid "Date (ex: February 29, 2020)"
+msgstr "Date (ex.: 29 février 2020)"
+
+#: framework/shippingmethod.php:394
+msgid "Date (ex: Feb 29, 2020)"
+msgstr "Date (ex.: fév. 29, 2020)"
+
+#: framework/shippingmethod.php:395
+msgid "Date (ex: Feb 29)"
+msgstr ""
+
+#: framework/shippingmethod.php:396
+msgid "Date format for Delivery Estimate"
+msgstr "Format de la date pour l'estimation de la livraison"
+
+#: framework/shippingmethod.php:397
+msgid "Label for Delivered by"
+msgstr "Étiquette pour : \"Livré le\""
+
+#: framework/shippingmethod.php:401
+msgid "Validation"
+msgstr "Validation"
+
+#: framework/shippingmethod.php:404
+msgid "Validate Zip / Postal code as required in Calculate Shipping form"
+msgstr ""
+"Valider le Zip ou le code postal tel que requis dans le formulaire de calcul "
+"des frais d'expédition"
+
+#: framework/shippingmethod.php:408
+msgid "Parcel Services"
+msgstr "Services de colis"
+
+#: framework/shippingmethod.php:414
+msgid "Method Availability"
+msgstr "Disponibilité des méthodes"
+
+#: framework/shippingmethod.php:417
+msgid "Any Country"
+msgstr "Tous pays"
+
+#: framework/shippingmethod.php:418
+msgid "Only Selected countries"
+msgstr "Seulement les pays sélectionnés"
+
+#: framework/shippingmethod.php:419
+msgid "Excluding selected countries"
+msgstr "Excluant les pays sélectionnés"
+
+#: framework/shippingmethod.php:426
+msgid "Choose countries.."
+msgstr "Choisir le ou les pays.."
+
+#: framework/shippingmethod.php:437
+msgid "Enable Parcel Services"
+msgstr "Activer les services de colis"
+
+#: framework/shippingmethod.php:440 framework/shippingmethod.php:464
+msgid "Custom Label"
+msgstr "Étiquette personnalisée"
+
+#: framework/shippingmethod.php:441
+msgid "Change the name of the service that is shown in the cart."
+msgstr ""
+
+#: framework/shippingmethod.php:442 framework/shippingmethod.php:465
+#: framework/shippingmethod.php:472 framework/shippingmethod.php:1276
+msgid "Margin"
+msgstr ""
+
+#: framework/shippingmethod.php:443
+msgid ""
+"Adjust the cost of each service by a margin. You can specify it as a percent "
+"if you put a % after the number. Otherwise, it is used as a dollar ($) "
+"amount. Ex. -2% and 1.5 are both valid margin adjustments."
+msgstr ""
+
+#: framework/shippingmethod.php:448
+msgid "Shipping Services"
+msgstr "Services de livraison"
+
+#: framework/shippingmethod.php:467 framework/shippingmethod.php:749
+msgid "Label"
+msgstr "Étiquette"
+
+#: framework/shippingmethod.php:473 framework/shippingmethod.php:608
+msgid "Add Cost/Margin $"
+msgstr "Ajouter Coûts/Marge $"
+
+#: framework/shippingmethod.php:487
+msgid "Package Type"
+msgstr "Type de paquet"
+
+#: framework/shippingmethod.php:494
+msgid "Packaging used with Parcel Services"
+msgstr "L'emballage utilisée avec les services de colis"
+
+#: framework/shippingmethod.php:499
+msgid "Parcel Services Display"
+msgstr ""
+
+#: framework/shippingmethod.php:502
+msgid ""
+"Limit the number of %s services displayed in the cart as shipping methods"
+msgstr ""
+
+#: framework/shippingmethod.php:505
+msgid "Display all available services"
+msgstr ""
+
+#: framework/shippingmethod.php:507
+msgid "Display up to %s services"
+msgstr ""
+
+#: framework/shippingmethod.php:509
+msgid "Display 1 service only"
+msgstr ""
+
+#: framework/shippingmethod.php:511
+msgid "The services will be displayed by lowest cost first."
+msgstr ""
+
+#: framework/shippingmethod.php:515
+msgid ""
+"If limiting the number of displayed services, prefer to include the lowest "
+"cost service that has Delivery dates or is a Guaranteed service."
+msgstr ""
+
+#: framework/shippingmethod.php:518
+msgid ""
+"If services have the same Delivery date, only display the service with the "
+"lower cost."
+msgstr ""
+
+#: framework/shippingmethod.php:521
+msgid "If services are the same cost, only display the better service."
+msgstr ""
+"Si les services sont du même prix, seulement afficher les meilleurs services."
+
+#: framework/shippingmethod.php:528
+msgid "Shipping Class Rules"
+msgstr "Règles des classes d'expédition"
+
+#: framework/shippingmethod.php:532
+msgid "Enable Shipping Class rules for Parcel Services"
+msgstr "Activer les règles de classe d'expédition pour les services de colis"
+
+#: framework/shippingmethod.php:532
+msgid "Assign products to these shipping classes to apply these rules."
+msgstr ""
+"Assigner des produits à ces classes d'expédition afin d'appliquer ces règles."
+
+#: framework/shippingmethod.php:539
+msgid "Boxes / Packing"
+msgstr "Boites ou emballage"
+
+#: framework/shippingmethod.php:542
+msgid "Box/Envelope Weight"
+msgstr "Poids de la boîte ou enveloppe"
+
+#: framework/shippingmethod.php:544
+msgid "Envelope/Box weight with bill/notes/advertising inserts (ex. 0.02%s)"
+msgstr ""
+"Poids de la boîte ou enveloppe incluant la facture, notes ou publicités "
+"(ex.: 0.02%s)"
+
+#: framework/shippingmethod.php:548
+msgid "Box Packing"
+msgstr "Emballage des boîtes"
+
+#: framework/shippingmethod.php:553 framework/shippingmethod.php:1265
+msgid "(Default)"
+msgstr "(Par défaut)"
+
+#: framework/shippingmethod.php:553
+msgid "Advanced 3D Box-Packing Algorithm used to pack products"
+msgstr ""
+"Un algorithme avancé pour l'emballage des boîtes est utilisé pour "
+"l'emballage des produits."
+
+#: framework/shippingmethod.php:556
+msgid "Volumetric/Cubic Packing Algorithm to pack products"
+msgstr ""
+"Un algorithme avancé pour l'emballage des boîtes est utilisé pour "
+"l'emballage des produits."
+
+#: framework/shippingmethod.php:558
+msgid ""
+"This determines the method used for packing products into packages. Advanced "
+"3D packing works well for most situations."
+msgstr ""
+"Cela détermine la méthode utilisée pour l'emballage des produits. "
+"L'emballage 3D avancé fonctionne bien dans la plupart des cas."
+
+#: framework/shippingmethod.php:562
+msgid ""
+"After packing, use Volumetric weight (if it is more than the actual weight) "
+"when requesting package rates"
+msgstr ""
+"Après l'emballage, utiliser le poids volumétrique (s'il est plus que le "
+"poids réel) en demandant les tarifs des paquets"
+
+#: framework/shippingmethod.php:563
+msgid ""
+"Most shipping couriers, including %s charge by volumetric weight (the size "
+"of the package) when it is greater than the actual weight."
+msgstr ""
+"La plupart des compagnies d'expédition, incluant %s chargent au poids "
+"volumétrique (la taille de l'emballage) quand il est supérieur au poids réel."
+
+#: framework/shippingmethod.php:566
+msgid ""
+"If Boxes are enabled, this plugin will attempt to use defined boxes first "
+"when packing, but then allow packages up to the maximum size for the "
+"shipping service. If this is unchecked, it will only use defined boxes when "
+"packing."
+msgstr ""
+"Si l'option \"boîtes\" est activée, ce plugin tentera d'utiliser les boîtes "
+"pré-définies en premier, mais permettra aussi l'usage de boîtes de la "
+"grandeur maximale permise par le service d'expédition. Si l'option n'est pas "
+"activée, cela n'utilisera que les boîtes pré-définies pour l'emballage. "
+
+#: framework/shippingmethod.php:570
+msgid "Allow products with weight-only (no dimensions) to still be calculated."
+msgstr ""
+"Permettre quand même le calcul de produits basé sur le poids seulement (sans "
+"tenir compte des dimensions)."
+
+#: framework/shippingmethod.php:574
+msgid "Enable the option to mark products as Package Separately (Pre-packaged)"
+msgstr ""
+"Activer l'option de marquer les produits comme paquets séparés (pré-emballés)"
+
+#: framework/shippingmethod.php:576
+msgid "This option will be displayed on the Product Edit page in Woocommerce."
+msgstr ""
+"Cette option sera affichée sur la page d'édition des produits de Woocommerce."
+
+#: framework/shippingmethod.php:582
+msgid "Shipping Package/Box sizes"
+msgstr "Paquet d'expédition/grandeurs de boîte"
+
+#: framework/shippingmethod.php:590
+msgid "Enable Defined Shipping Box Sizes"
+msgstr "Activer l'option de grandeurs de boîtes pré-définies"
+
+#: framework/shippingmethod.php:591
+msgid ""
+"Please define a number of envelope/package/box sizes that you use to ship. "
+"These will be used to ship but if a large enough box is not found for a "
+"product, the system will use a calculate one."
+msgstr ""
+"SVP définir les dimensions des enveloppes/colis/boîtes qui seront utilisés "
+"pour l'expédition. Ces dernières seront utilisées pour l'expédition mais si "
+"le système ne trouve pas de boîte assez grande pour un produit, il en "
+"utilisera une déjà calculée."
+
+#: framework/shippingmethod.php:598
+msgid "Box Name (internal)"
+msgstr "Nom de la boîte (interne)"
+
+#: framework/shippingmethod.php:600
+msgid "Box Dimensions"
+msgstr "Dimensions de la boîte"
+
+#: framework/shippingmethod.php:605
+msgid "LxWxH %s decimal form"
+msgstr "Longueur X Largeur X Hauteur en %s"
+
+#: framework/shippingmethod.php:607 framework/shippingmethod.php:1277
+msgid "Box Weight"
+msgstr "Poids de la boîte"
+
+#: framework/shippingmethod.php:618
+msgid "Use Maximum dimensions for Packages as defined by "
+msgstr ""
+
+#: framework/shippingmethod.php:621
+msgid "Use Maximum dimensions for Packages of Largest defined Box."
+msgstr ""
+
+#: framework/shippingmethod.php:622
+msgid "This is the maximum package dimensions that items will be packed in."
+msgstr ""
+
+#: framework/shippingmethod.php:629
+msgid "Alternative (fallback/failover) weight and dimensions for Products"
+msgstr ""
+
+#: framework/shippingmethod.php:630
+msgid "Enable Default Weight or Dimensions for products missing data"
+msgstr ""
+
+#: framework/shippingmethod.php:631
+msgid "This will only be used if weight is %s not %s entered on Product data"
+msgstr ""
+
+#: framework/shippingmethod.php:635
+msgid "Default product data when weight is missing"
+msgstr ""
+
+#. translators: dimension units
+#: framework/shippingmethod.php:642 framework/shippingmethod.php:807
+msgid "(%s) LxWxH decimal form"
+msgstr "(%s) Longueur X Largeur X Hauteur"
+
+#: framework/shippingmethod.php:653 framework/tracking.php:111
+#: framework/tracking.php:118
+msgid "Order Shipping Tracking"
+msgstr "Repérage de la commande"
+
+#: framework/shippingmethod.php:655
+msgid "Enable Email notification when Parcel Tracking updates"
+msgstr ""
+"Activer les notifications par e-mail lors des mises à jour des informations "
+"de repérage"
+
+#: framework/shippingmethod.php:656
+msgid ""
+"Automatic email notifications to customers when \"Mailed on\" or \"Delivered"
+"\" date is updated"
+msgstr ""
+"Notifications automatiques par e-mail aux clients lorsque les dates «postée» "
+"ou «livrée» sont mises à jour"
+
+#: framework/shippingmethod.php:660
+msgid "Tracking Email Format"
+msgstr ""
+
+#: framework/shippingmethod.php:662
+msgid "Display icons with Tracking information"
+msgstr "Afficher les icônes avec les informations de repérage"
+
+#: framework/shippingmethod.php:664
+msgid "Location of Tracking on Customer \"My Account\" Order Details page"
+msgstr ""
+
+#: framework/shippingmethod.php:666 framework/shippingmethod.php:674
+msgid "After order table (Default)"
+msgstr ""
+
+#: framework/shippingmethod.php:667
+msgid "Before order details"
+msgstr ""
+
+#: framework/shippingmethod.php:672
+msgid "Location of Tracking on Invoice Email"
+msgstr ""
+
+#: framework/shippingmethod.php:675
+msgid "Before order table"
+msgstr ""
+
+#: framework/shippingmethod.php:678
+msgid "Tracking Display"
+msgstr ""
+
+#: framework/shippingmethod.php:680
+msgid "All Tracking Details"
+msgstr ""
+
+#: framework/shippingmethod.php:681
+msgid "Minimal: Only Tracking Number with Link"
+msgstr ""
+
+#: framework/shippingmethod.php:683
+msgid "Date format for display of Tracking Events"
+msgstr ""
+
+#: framework/shippingmethod.php:686
+msgid "Default (ex: 2028-02-29 )"
+msgstr ""
+
+#: framework/shippingmethod.php:687 framework/shippingmethod.php:693
+msgid "Date (ex: 2028-02-29)"
+msgstr ""
+
+#: framework/shippingmethod.php:688 framework/shippingmethod.php:694
+msgid "Date (ex: 02/29/2028)"
+msgstr ""
+
+#: framework/shippingmethod.php:689 framework/shippingmethod.php:696
+msgid "Date (ex: Feb 29, 2028)"
+msgstr ""
+
+#: framework/shippingmethod.php:690 framework/shippingmethod.php:698
+msgid "Date (ex: February 29, 2028)"
+msgstr ""
+
+#: framework/shippingmethod.php:692
+msgid "Default (ex: 2028-02-29 12:30:00 )"
+msgstr ""
+
+#: framework/shippingmethod.php:695
+msgid "Date (ex: 02/29/2028 12:30 pm)"
+msgstr ""
+
+#: framework/shippingmethod.php:697
+msgid "Date (ex: Feb 29, 2028 12:30 pm)"
+msgstr ""
+
+#: framework/shippingmethod.php:699
+msgid "Full Date (ex: Monday Feb 29, 2028 12:30 pm)"
+msgstr ""
+
+#: framework/shippingmethod.php:700
+msgid "Full Date (ex: February 29, 2028 12:30 pm)"
+msgstr ""
+
+#: framework/shippingmethod.php:712
+msgid "Lettermail / Flat Rates"
+msgstr "Lettres/tarifs uniformes"
+
+#: framework/shippingmethod.php:730
+msgid "Enable Lettermail / Flat Rates"
+msgstr "Activer lettres/tarifs uniformes"
+
+#: framework/shippingmethod.php:730
+msgid "in the cart."
+msgstr ""
+
+#: framework/shippingmethod.php:731
+msgid "Define Lettermail rates based on Weight Range (%s)"
+msgstr "Définir les tarifs «lettres» basés sur les variations de poids (%s)"
+
+#: framework/shippingmethod.php:732
+msgid "Example: 0.1%s to 0.2%s: $3.80 Lettermail"
+msgstr "Exemple : 0,1%s à 0,2%s : lettre à 3,80$"
+
+#: framework/shippingmethod.php:734
+msgid ""
+"Enable as alternative (fallback/failover) rates when Live %s rates are "
+"unavailable."
+msgstr ""
+
+#: framework/shippingmethod.php:735
+msgid "Can enable rate rules to be used when live rates are not available"
+msgstr ""
+
+#: framework/shippingmethod.php:748
+msgid "Rate Rule"
+msgstr ""
+
+#: framework/shippingmethod.php:757 models/woocommerce_cpwebservice.php:78
+msgid "International"
+msgstr "International"
+
+#: framework/shippingmethod.php:770
+msgid "Weight Range"
+msgstr "Variation de poids"
+
+#: framework/shippingmethod.php:771 framework/shippingmethod.php:776
+#: framework/tracking.php:224
+msgid "to"
+msgstr "à"
+
+#: framework/shippingmethod.php:773
+msgid "Max items (0 for no limit)"
+msgstr "Maximum de produits (0 pour illimités)"
+
+#: framework/shippingmethod.php:775
+msgid "Cart subtotal"
+msgstr "Sous-total du panier"
+
+#: framework/shippingmethod.php:779
+msgid "Limit to Products in Shipping Classes"
+msgstr ""
+
+#: framework/shippingmethod.php:780
+msgid "Select Shipping Classes"
+msgstr ""
+
+#: framework/shippingmethod.php:781
+msgid "No Shipping Class"
+msgstr ""
+
+#: framework/shippingmethod.php:796
+msgid "Cart subtotal of rules includes tax"
+msgstr ""
+
+#: framework/shippingmethod.php:798
+msgid "Cart subtotal of rules excludes tax"
+msgstr ""
+
+#: framework/shippingmethod.php:802
+msgid ""
+"Maximum dimensions for Lettermail/Flat Rates (Also maximum volumetric weight)"
+msgstr ""
+"Dimensions maximales pour le tarifs lettres uniformes (également poids "
+"volumétrique maximal)"
+
+#: framework/shippingmethod.php:811
+msgid "Override Box/Envelope Weights for Lettermail/Flat Rates"
+msgstr ""
+"Outrepasser le poids des boîtes et enveloppes pour les tarifs lettres "
+"uniformes"
+
+#: framework/shippingmethod.php:813
+msgid ""
+"Envelope/Box weight. This is used instead of above Box/Envelope Weight, but "
+"only for calculating Lettermail/Flat Rates."
+msgstr ""
+"Poids des enveloppes/boîtes. Ceci sera utilisé au lieu du poids boîtes/"
+"enveloppes ci-dessus, mais seulement afin de calculer les tarifs lettres "
+"uniformes."
+
+#: framework/shippingmethod.php:820
+msgid "Shipments"
+msgstr "Expéditions"
+
+#: framework/shippingmethod.php:824
+msgid "Creating Shipments"
+msgstr "Création d'expéditions"
+
+#: framework/shippingmethod.php:826
+msgid ""
+"The ability to Create Shipments (Paid shipping labels) is provided on the "
+"&quot;Edit Order&quot; page in Woocommerce. You will see a &quot;Create "
+"Shipment&quot; button."
+msgstr ""
+"La capacité de créer des envois (étiquettes d'expédition payés) est fourni "
+"sur la page &quot;Modifier Commande&quot; de WooCommerce. Vous verrez un "
+"bouton &quot;Créer l'envoi&quot;."
+
+#: framework/shippingmethod.php:827
+msgid "View Orders"
+msgstr "Afficher les commandes"
+
+#: framework/shippingmethod.php:831
+msgid "Shipment Settings"
+msgstr "Paramètres d'expédition"
+
+#: framework/shippingmethod.php:833
+msgid "View my orders on"
+msgstr "Afficher mes commandes sur"
+
+#: framework/shippingmethod.php:836
+msgid ""
+"In order to create paid shipping labels through this plugin, you will need "
+"to add a method of payment (Credit Card) on your account with %s."
+msgstr ""
+"Afin de créer des étiquettes d'expédition payés avec ce plugin, vous aurez "
+"besoin d'ajouter un méthode de paiement (carte de crédit) sur votre compte "
+"avec %s."
+
+#: framework/shippingmethod.php:838
+msgid "Log-in and add a default payment credit card to your %s online profile."
+msgstr ""
+"Connectez-vous et ajoutez une carte de crédit de paiement par défaut à votre "
+"profil en ligne de %s."
+
+#: framework/shippingmethod.php:840
+msgid ""
+"To create a commercial shipping label you must be a commercial customer with "
+"a parcel agreement and have an account in good standing."
+msgstr ""
+"Pour créer une étiquette commerciale d'expédition, vous devez être un client "
+"commercial avec une entente et avoir un compte en règle."
+
+#: framework/shippingmethod.php:841
+msgid ""
+"You may use “account” as an alternate method of payment. Please ensure that "
+"your account is in good standing."
+msgstr ""
+"Vous pouvez utiliser \"compte\" comme méthode alternative de paiement. "
+"Veuillez vous assurer que votre compte est en règle."
+
+#: framework/shippingmethod.php:845
+msgid "Add a method of Payment: (Visa/MasterCard/AmericanExpress)"
+msgstr "Ajouter une méthode de paiement: (Visa/MasterCard/AmericanExpress)"
+
+#: framework/shippingmethod.php:853
+msgid "Enable Shipment Logging"
+msgstr "Activer la journalisation de l'expédition"
+
+#: framework/shippingmethod.php:854
+msgid ""
+"Captures recent create shipment / label actions.  If there are any errors in "
+"creating shipments, they will be captured in this log."
+msgstr ""
+"Capturer les récentes actions de création d'expédition ou d'étiquetage.  "
+"S'il y a des erreurs dans la création des envois, ils seront capturées dans "
+"ce journal."
+
+#: framework/shippingmethod.php:856
+msgid "Display log for recent shipments/labels"
+msgstr "Afficher le journal pour les expéditions ou étiquettes récentes"
+
+#: framework/shippingmethod.php:868
+msgid ""
+"Common settings can be saved into a Template when creating a shipment label."
+msgstr ""
+"Les paramètres courants peuvent être sauvegardés dans un modèle lorsque "
+"qu'une étiquette d'expédition est créée."
+
+#: framework/shippingmethod.php:869
+msgid ""
+"Please note that templates do not save the Customer Email, Phone and Order "
+"Reference Numbers of the shipment label."
+msgstr ""
+"SVP prenez note qu'un modèle ne sauvegardera pas le courriel du client, le "
+"numéro de téléphone et le numéro de référence de la commande de l'étiquette "
+"d'expédition"
+
+#: framework/shippingmethod.php:872
+msgid "Include package weight and dimensions in Shipment Templates"
+msgstr ""
+"Inclure le poids et les dimensions d'un paquet dans le modèle d'expédition"
+
+#: framework/shippingmethod.php:875
+msgid ""
+"Include Customs Information (but not Customs Products) in Shipment Templates"
+msgstr ""
+"Inclure les informations douanières (mais non les produits douaniers) dans "
+"le modèle d'expédition"
+
+#: framework/shippingmethod.php:882
+msgid "Customs product data can be saved with the product."
+msgstr "Les produits douaniers peuvent être sauvegardés avec le produit."
+
+#: framework/shippingmethod.php:885
+msgid "Enable saving Customs HS Codes and Country of Origin on Products"
+msgstr ""
+"Activer la sauvegarde du code SH des douanes et le pays d'origine du produit"
+
+#: framework/shippingmethod.php:896
+msgid "Updates Activation"
+msgstr ""
+
+#: framework/shippingmethod.php:901
+msgid ""
+"Add your Envato license key to enable automatic updates in the Wordpress "
+"Admin. You can find the license key at the Code Canyon downloads area."
+msgstr ""
+
+#: framework/shippingmethod.php:902 framework/update.php:297
+msgid "License Key / Purchase Code"
+msgstr ""
+
+#: framework/shippingmethod.php:904 framework/update.php:299
+msgid "Email"
+msgstr ""
+
+#: framework/shippingmethod.php:906 framework/update.php:301
+msgid "Domain"
+msgstr ""
+
+#: framework/shippingmethod.php:908
+msgid "Activate"
+msgstr ""
+
+#: framework/shippingmethod.php:914
+msgid ""
+"License Key / Purchase code activation did not work. This may be because of "
+"an error or invalid license key. Check your purchase information and try "
+"again later."
+msgstr ""
+
+#: framework/shippingmethod.php:928
+msgid "Update Utilities"
+msgstr ""
+
+#: framework/shippingmethod.php:934
+msgid "Migrate Tracking Data"
+msgstr ""
+
+#: framework/shippingmethod.php:944
+msgid "Migrate Shipping Data"
+msgstr ""
+
+#: framework/shippingmethod.php:1260
+msgid "Cart Shipping Rates Request"
+msgstr "Requêtes de tarifs d'expédition du panier"
+
+#: framework/shippingmethod.php:1262
+msgid "Item"
+msgstr "Item"
+
+#: framework/shippingmethod.php:1262
+msgid "Qty"
+msgstr "Qté"
+
+#: framework/shippingmethod.php:1262
+msgid "Cubic"
+msgstr "Cubique"
+
+#: framework/shippingmethod.php:1270
+msgid "Request to API"
+msgstr "Requête à l'API"
+
+#: framework/shippingmethod.php:1271
+msgid "After box packing/Volumetric weight calculation and Box/Envelope Weight"
+msgstr ""
+"Après les calculs de l'emballage des boîtes/poids volumétrique et du poids "
+"de la boîte/enveloppe"
+
+#: framework/shippingmethod.php:1273
+msgid "Origin Postal"
+msgstr "Code postal d'origine"
+
+#: framework/shippingmethod.php:1273
+msgid "State"
+msgstr "État"
+
+#: framework/shippingmethod.php:1273
+msgid "# of Products"
+msgstr "# de produits"
+
+#: framework/shippingmethod.php:1273
+msgid "Class"
+msgstr "Classe"
+
+#: framework/shippingmethod.php:1284
+msgid "API Response"
+msgstr "Réponse de l'API"
+
+#: framework/shippingmethod.php:1301
+msgid "Rates displayed in Cart"
+msgstr "Tarifs affichés dans le panier"
+
+#: framework/shippingmethod.php:1313
+msgid "No rates displayed"
+msgstr "Aucun tarif affiché"
+
+#: framework/shippingmethod.php:1316
+msgid ""
+"No log information.. yet.  Go to your shopping cart page and click on "
+"\"Calculate Shipping\"."
+msgstr ""
+"Aucune information de journal... jusqu'à maintenant. Aller à votre panier et "
+"cliquer sur «calculer les frais d'expédition»."
+
+#: framework/shippingmethod.php:1342
+msgid ""
+"Make sure that you have a common/overlapping service in all the rules so "
+"that if a customer places products from different shipping classes, there "
+"will be a valid service provided."
+msgstr ""
+"Assurez-vous d'avoir un service courant ou redondant dans toutes les règles "
+"afin de fournir un service valide si un client place des produits dans une "
+"classe d'expéditions différente."
+
+#: framework/shippingmethod.php:1347
+msgid "Choose a Shipping Class..."
+msgstr "Choisir une classe d'expédition"
+
+#: framework/shippingmethod.php:1355
+msgid "Can only use"
+msgstr "Peut seulement utiliser"
+
+#: framework/shippingmethod.php:1356
+msgid "Choose %s Services..."
+msgstr "Choisir les services de %s..."
+
+#: framework/shippingmethod.php:1371
+msgid "No %s Shipping"
+msgstr "Pas d'expédition de %s"
+
+#: framework/shippingmethod.php:1372
+msgid "No Lettermail/Flat Rates"
+msgstr ""
+
+#: framework/shippingmethod.php:1376
+msgid "Clear"
+msgstr "Supprimer"
+
+#: framework/shippingmethod.php:1413 framework/shippingmethod.php:1417
+msgid ""
+"API username, API password, Customer ID and Sender Address (Origin Postal "
+"Code) are required."
+msgstr ""
+"Les nom d'utilisateur API, mot de passe API, ID de client et code postal "
+"d'origine sont requis."
+
+#: framework/tracking.php:145 framework/tracking.php:146
+msgid "Add Tracking Pin"
+msgstr "Ajouter numéro de repérage"
+
+#: framework/tracking.php:189
+msgid "Tracking Number"
+msgstr "Numéro de repérage"
+
+#: framework/tracking.php:189
+msgid "Event"
+msgstr "Événement"
+
+#: framework/tracking.php:189
+msgid "Shipping Service"
+msgstr "Services d'expédition"
+
+#: framework/tracking.php:189
+msgid "Delivery"
+msgstr "Livraison"
+
+#: framework/tracking.php:200
+msgid "Update"
+msgstr "Mise à jour"
+
+#: framework/tracking.php:223
+msgid "Shipped"
+msgstr "Envoyé"
+
+#: framework/tracking.php:226
+msgid "Delivered"
+msgstr "Livré"
+
+#: framework/tracking.php:228
+msgid "Expected Delivery"
+msgstr "Livraison prévue"
+
+#: framework/tracking.php:231
+msgid "Reference"
+msgstr "Référence"
+
+#: framework/tracking.php:235
+msgid "No Tracking Data Found"
+msgstr "Aucune donnée de repérage n'a été trouvée"
+
+#: framework/tracking.php:302
+msgid "Removed."
+msgstr ""
+
+#: framework/tracking.php:316
+msgid "Duplicate Pin."
+msgstr "Dupliquer NIP."
+
+#: framework/update.php:215
+msgid "License Key / Purchase Code is required."
+msgstr ""
+
+#: framework/update.php:296
+msgid "Automatic updates are active in the Wordpress Admin."
+msgstr ""
+
+#: framework/update.php:304
+msgid "Modify"
+msgstr ""
+
+#: framework/update.php:315
+msgid "You can enable automatic plugin updates for "
+msgstr ""
+
+#: framework/update.php:315
+msgid "Simply add your Envato license / purchase code"
+msgstr ""
+
+#: framework/update.php:315
+msgid "Thanks!"
+msgstr ""
+
+#: models/woocommerce_cpwebservice.php:20
+msgid "Regular Parcel"
+msgstr "Colis standards"
+
+#: models/woocommerce_cpwebservice.php:21
+msgid "Expedited Parcel"
+msgstr "Colis accélérés"
+
+#: models/woocommerce_cpwebservice.php:22
+msgid "Xpresspost"
+msgstr "Xpresspost"
+
+#: models/woocommerce_cpwebservice.php:23
+msgid "Xpresspost Certified"
+msgstr "Xpresspost certifié"
+
+#: models/woocommerce_cpwebservice.php:24
+msgid "Priority"
+msgstr "Priorité"
+
+#: models/woocommerce_cpwebservice.php:25
+msgid "Library Books"
+msgstr "Livres de librairies"
+
+#: models/woocommerce_cpwebservice.php:26
+msgid "Small Packet USA Air"
+msgstr "Petits paquets par avion à destination des É.-U."
+
+#: models/woocommerce_cpwebservice.php:27
+msgid "Tracked Packet USA"
+msgstr "Paquet repérable É.-U."
+
+#: models/woocommerce_cpwebservice.php:28
+msgid "Expedited Parcel USA"
+msgstr "Colis accélérés  É.-U."
+
+#: models/woocommerce_cpwebservice.php:29
+msgid "Xpresspost USA"
+msgstr "Xpresspost É.-U."
+
+#: models/woocommerce_cpwebservice.php:30
+msgid "Priority Worldwide Envelope USA"
+msgstr "Enveloppe Priorité Mondiale É.-U."
+
+#: models/woocommerce_cpwebservice.php:31
+msgid "Priority Worldwide Pak USA"
+msgstr "Paquet Priorité Mondiale É.-U."
+
+#: models/woocommerce_cpwebservice.php:32
+msgid "Priority Worldwide Parcel USA"
+msgstr "Colis Priorité Mondiale É.-U."
+
+#: models/woocommerce_cpwebservice.php:33
+msgid "Small Packet International Surface"
+msgstr "Petits paquets de surface du régime international"
+
+#: models/woocommerce_cpwebservice.php:34
+msgid "Small Packet International Air"
+msgstr "Petits paquets par avion du régime international"
+
+#: models/woocommerce_cpwebservice.php:35
+msgid "International Parcel Air"
+msgstr "Colis par avion du régime international"
+
+#: models/woocommerce_cpwebservice.php:36
+msgid "International Parcel Surface"
+msgstr "Colis de surface du régime international"
+
+#: models/woocommerce_cpwebservice.php:37
+msgid "Tracked Packet International"
+msgstr "Paquet repérable – International"
+
+#: models/woocommerce_cpwebservice.php:38
+msgid "Xpresspost International"
+msgstr "Xpresspost International"
+
+#: models/woocommerce_cpwebservice.php:39
+msgid "Priority Worldwide Envelope International"
+msgstr "Enveloppe Priorité Mondiale – International"
+
+#: models/woocommerce_cpwebservice.php:40
+msgid "Priority Worldwide Pak International"
+msgstr "Paquet Priorité Mondiale – International"
+
+#: models/woocommerce_cpwebservice.php:41
+msgid "Priority Worldwide parcel International"
+msgstr "Colis Priorité Mondiale – International"
+
+#: models/woocommerce_cpwebservice.php:44
+#: models/woocommerce_cpwebservice.php:45
+#: models/woocommerce_cpwebservice.php:46
+#: models/woocommerce_cpwebservice.php:50
+#: models/woocommerce_cpwebservice.php:51
+#: models/woocommerce_cpwebservice.php:52
+#: models/woocommerce_cpwebservice.php:53
+#: models/woocommerce_cpwebservice.php:56
+#: models/woocommerce_cpwebservice.php:57
+#: models/woocommerce_cpwebservice.php:58
+#: models/woocommerce_cpwebservice.php:59
+#: models/woocommerce_cpwebservice.php:60
+#: models/woocommerce_cpwebservice.php:61
+#: models/woocommerce_cpwebservice.php:62
+#: models/woocommerce_cpwebservice.php:65
+msgid "Max"
+msgstr "Maximum"
+
+#: models/woocommerce_cpwebservice.php:44
+#: models/woocommerce_cpwebservice.php:45
+#: models/woocommerce_cpwebservice.php:46
+#: models/woocommerce_cpwebservice.php:52
+#: models/woocommerce_cpwebservice.php:53
+#: models/woocommerce_cpwebservice.php:56
+#: models/woocommerce_cpwebservice.php:59
+#: models/woocommerce_cpwebservice.php:60
+#: models/woocommerce_cpwebservice.php:62
+#: models/woocommerce_cpwebservice.php:65
+msgid "Girth"
+msgstr "Circonférence"
+
+#: models/woocommerce_cpwebservice.php:76
+msgid "Canada"
+msgstr "Canada"
+
+#: models/woocommerce_cpwebservice.php:77
+msgid "USA"
+msgstr "États-Unis"
+
+#: models/woocommerce_cpwebservice.php:265
+#: models/woocommerce_cpwebservice.php:268
+msgid "Zip or Postal Code is required to calculate shipping."
+msgstr ""
+"Le zip ou code postal est requis afin de calculer les frais d'expédition."
+
+#: models/woocommerce_cpwebservice.php:423
+msgid "Production/Live Server"
+msgstr "Serveur en direct ou de production"
+
+#: models/woocommerce_cpwebservice.php:423
+msgid "Development Server"
+msgstr "Serveur de Développement"
+
+#: models/woocommerce_cpwebservice.php:485
+msgid "Success"
+msgstr ""
+
+#: models/woocommerce_cpwebservice.php:485
+msgid "API Credentials validated with Canada Post"
+msgstr ""
+
+#: models/woocommerce_cpwebservice.php:487
+msgid "Failed"
+msgstr ""
+
+#: models/woocommerce_cpwebservice.php:487
+msgid "API Credentials did not validate"
+msgstr ""
+
+#: models/woocommerce_cpwebservice.php:495
+msgid "Testing Rates Lookup"
+msgstr ""
+
+#: models/woocommerce_cpwebservice_resources.php:14
+msgid "Canada Post"
+msgstr "Postes Canada"
+
+#: models/woocommerce_cpwebservice_resources.php:15
+msgid ""
+"Shipping method for Canada Post. Provides rates, tracking and shipment "
+"labels."
+msgstr ""
+"Méthodes d'expédition pour Poste Canada. Fournis les taux, le répérage et "
+"les étiquettes d'expédition."
+
+#: models/woocommerce_cpwebservice_resources.php:24
+msgid ""
+"(ie. if Regular Parcel and Expedited Parcel are same cost, keep Expedited "
+"Parcel Service.)"
+msgstr ""
+"(ex.: si les colis réguliers et les colis accélérés sont du même prix, "
+"seulement utiliser le service de colis accélérés.)"
+
+#: models/woocommerce_cpwebservice_resources.php:25
+msgid "(ie. Regular Parcel will not display, only Xpresspost, Priority, etc)"
+msgstr ""
+"(ex.: les colis réguliers ne s'afficheront pas, seulement Xpresspost, "
+"Priorité, etc)"
+
+#: models/woocommerce_cpwebservice_resources.php:26
+msgid "Canada Post Lettermail"
+msgstr "Lettres Postes Canada"
+
+#: models/woocommerce_cpwebservice_resources.php:27
+msgid ""
+"Canada Post rates are in CAD.  In order to convert to USD, put the exchange "
+"rate \"to USD\" in the Exchange rate."
+msgstr ""
+"Les taux de Postes Canada sont en CAD.  Pour les convertir en USD, "
+"sélectionner «vers USD» dans le taux de change."
+
+#: models/woocommerce_cpwebservice_resources.php:29
+msgid "(Recommended by %s)"
+msgstr "(Recommandé par %s)"
+
+#: models/woocommerce_cpwebservice_resources.php:39
+msgid ""
+"Warning: Postal Code is invalid. Required to be a valid Canadian postal code."
+msgstr ""
+"Avertissement: code postal non valide. Un code postal canadien valide est "
+"requis."
+
+#: models/woocommerce_cpwebservice_resources.php:42
+msgid "Credit Card (on file at your Canada Post Account)"
+msgstr "Carte de crédit (dans les dossiers de votre compte chez Postes Canada)"
+
+#: models/woocommerce_cpwebservice_resources.php:43
+msgid "Account (Your account must be in good standing at Canada Post)"
+msgstr "Compte (votre compte doit être en règle avec Postes Canada)"
+
+#: models/woocommerce_cpwebservice_resources.php:44
+msgid "Email notifications (Sent by Canada Post)"
+msgstr "Notifications par e-mail (envoyées par Postes Canada) "
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Vous n'avez pas les permissions pour accèder à cette page."
+
+#~ msgid "Try selecting a different service"
+#~ msgstr "Essayez de sélectionner un autre service"
+
+#~ msgid "Invalid request."
+#~ msgstr "Requête invalide"
+
+#~ msgid ""
+#~ "This will use the \"closest\" origin postal code to the entered postal "
+#~ "code when looking up rates. If the approximate lat/long for the postal "
+#~ "code cannot be found, it will use the \"Default Sending Address\" Postal "
+#~ "code."
+#~ msgstr ""
+#~ "Ceci utilisera le code postal d'origine \"le plus près\" du code postal "
+#~ "entré pendant la recherche des taux. Si la latitude ou la longitude "
+#~ "approximatives pour le code postal ne peuvent pas être trouvées, le "
+#~ "système utilisera le code postal de l'adresse d'envoi \"par défaut\"."
+
+#~ msgid ""
+#~ "Currently using the following Postal Code(s) as Origins when looking up "
+#~ "rates"
+#~ msgstr ""
+#~ "Le système utilise présentement le ou les codes postaux suivants comme "
+#~ "origine pour la recherche des taux"
+
+#~ msgid "Envelope/Box weight with bill/notes/advertising inserts (ex. 0.02kg)"
+#~ msgstr "Poids de la boite avec la facture/enveloppe/publicité (ex. 0.02 kg)"
+
+#~ msgid ""
+#~ "After packing, use Volumetric weight (if it is more than the actual "
+#~ "weight) when requesting package rates (Recommended by %s)"
+#~ msgstr ""
+#~ "Après l'emballage, utiliser le poids volumétrique ( si elle est plus que "
+#~ "le poids réel ) en demandant les prix des forfaits (Recommandé par % s)"
+
+#~ msgid ""
+#~ "Please define a number of envelope/package/box sizes that you use to "
+#~ "ship. Dimensions are in cm.  These will be used to ship but if a large "
+#~ "enough box is not found for a product, the system will use a calculate "
+#~ "one."
+#~ msgstr ""
+#~ "SVP définir les dimensions des enveloppes/colis/boîtes qui seront "
+#~ "utilisés pour l'expédition. Les dimensions sont en cm. Ces dernières "
+#~ "seront utilisées pour l'expédition mais si le système ne trouve pas de "
+#~ "boîte assez grande pour un produit, il en utilisera une déjà calculée."
+
+#~ msgid "Box Dimensions (cm)"
+#~ msgstr "Dimensions de la boîte (cm)"
+
+#~ msgid "LxWxH cm decimal form"
+#~ msgstr "Longueur X Largeur X Hauteur en cm"
+
+#~ msgid "Define Lettermail rates based on Weight Range (kg)"
+#~ msgstr "Définir les tarifs «lettres» basés sur la gamme du poids (kg)"
+
+#~ msgid "Example: 0.1kg to 0.2kg: $3.80 Lettermail"
+#~ msgstr "Exemple: 0,1 kg à 0,2 kg: 3,80$ lettres"
+
+#~ msgid "Weight Range(kg)"
+#~ msgstr "Gamme de poids (kg)"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" title=\"%3$s"
+#~ "\">View version %4$s details</a>."
+#~ msgstr ""
+#~ "Une nouvelle version de %1$s est disponible. <a href=\"%2$s\" title=\"%3$s"
+#~ "\">Voir les détails de %4$s </a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" title=\"%3$s"
+#~ "\">View version %4$s details</a>. <em>Automatic update is unavailable for "
+#~ "this plugin.</em>"
+#~ msgstr ""
+#~ "Une nouvelle version de %1$s est disponible. <a href=\"%2$s\" title=\"%3$s"
+#~ "\">Voir les détails de %4$s </a>. <em>La mise-à-jour automatique n'est "
+#~ "pas disponible pour ce plugin.</em>"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" title=\"%3$s"
+#~ "\">View version %4$s details</a> or <a href=\"%5$s\">update now</a>."
+#~ msgstr ""
+#~ "Une nouvelle version de %1$s est disponible. <a href=\"%2$s\" title=\"%3$s"
+#~ "\">Voir les détails de %4$s </a>  ou <a href=\"%5$s\">mettre-à-jour "
+#~ "maintenant</a>."
+
+#~ msgid "Enable the option to mark products as Ready-to-Ship (Pre-packaged)"
+#~ msgstr ""
+#~ "Activer cette option afin d'identifier les produits comme prêts à être "
+#~ "envoyés (pré-emballés)"
+
+#~ msgid "Add More +"
+#~ msgstr "Ajouter +"
+
+#~ msgid "Canada Post Shipping Method."
+#~ msgstr "Méthode d'expédition de Postes Canada."
+
+#~ msgid "Enable Canada Post Webservice"
+#~ msgstr "Activer le service Web de Postes Canada"
+
+#~ msgid "Customer Number (Venture One)"
+#~ msgstr "Numéro de client du programme «Solutions pour petites entreprises»"
+
+#~ msgid "Add Contract ID (Optional, Only if a Contract Customer)"
+#~ msgstr ""
+#~ "Ajoutez ID du contrat (optionel, seulement pour les clients à contrats)"
+
+#~ msgid "Enable Canada Post Tracking number feature on Orders"
+#~ msgstr "Activer le numéro de repérage de Postes Canada"
+
+#~ msgid "Display Errors"
+#~ msgstr "Afficher les erreurs"
+
+#~ msgid ""
+#~ "Warning: Do not enable in production since debug/errors would be shown to "
+#~ "customers"
+#~ msgstr ""
+#~ "Avertissement: n'activez pas en mode «production» car les erreurs "
+#~ "seraient visibles aux clients"
+
+#~ msgid ""
+#~ "After packing, use Volumetric weight (if it is more than the actual "
+#~ "weight) when requesting package rates (Recommended by Canada Post)"
+#~ msgstr ""
+#~ "Après avoir emballé, utilisez le poids volumétrique (s'il est supérieur "
+#~ "au poids actuel) lorsque vous demandez les tarifs de colis (recommandé "
+#~ "par Postes Canada)"
+
+#~ msgid ""
+#~ "Most shipping couriers, including Canada Post charge by volumetric weight "
+#~ "(the size of the package) when it is greater than the actual weight."
+#~ msgstr ""
+#~ "La plupart des compagnies d'expédition, incluant Postes Canada, facturent "
+#~ "avec le poids volumétrique (la grandeur du paquet) quand ce dernier est "
+#~ "plus grand que le poids actuel."
+
+#~ msgid "Days to Ship after order placed.  Used to calculate date mailed."
+#~ msgstr ""
+#~ "Nombre de jours pour expédier après la commande. Ceci est utilisé pour "
+#~ "calculer la date d'envoi."
+
+#~ msgid "Canada Post Shipping Services"
+#~ msgstr "Service d'expédition de Postes Canada"
+
+#~ msgid "Enable Shipping Class rules"
+#~ msgstr "Acitver les règles de classe d'expédition"
+
+#~ msgid "Choose Canada Post Services..."
+#~ msgstr "Choisir les services de Postes Canada..."
+
+#~ msgid ""
+#~ "API username, API password, Customer ID and Origin Postal Code are "
+#~ "required."
+#~ msgstr ""
+#~ "Nom d'utilisateur API, mot de passe API, ID de client et code postal "
+#~ "d'origine sont requis."
+
+#~ msgid "My Cost: "
+#~ msgstr "Mon coût:"
+
+#~ msgid "Canada Post: Ready to Ship (Pre-packaged):"
+#~ msgstr "Postes Canada prêt à envoyer (pré-emballés):"
+
+#~ msgid "Ready to Ship (Pre-packaged)"
+#~ msgstr "Prêt à envoyer (pré-emballés)"
+
+#~ msgid "Save &amp; Continue"
+#~ msgstr "Sauvegarder &amp; continuer"
+
+#~ msgid "Add Margin Percentage (ex. 5%) to Shipping Cost"
+#~ msgstr "Ajouter un pourcentage à la marge (i.e. 5%) des tarifs postaux"
+
+#~ msgid "Days to Ship after order placed"
+#~ msgstr "Nombre de jours pour envoyer après réception de la commande"
+
+#~ msgid "Show Estimated Delivery Dates"
+#~ msgstr "Montrer les dates approximatives de livraison"
+
+#~ msgid ""
+#~ "Please define a number of envelope/package/box sizes that you use to "
+#~ "ship. Dimensions are in cm."
+#~ msgstr ""
+#~ "SVP définir un certain nombre d'enveloppes/paquets/tailles de boîte  que "
+#~ "vous utiliserez pour expédier. Les dimensions sont en cm."
+
+#~ msgid "Volumetric Dimensions"
+#~ msgstr "Dimensions volumétriques"
+
+#~ msgid "API ID"
+#~ msgstr "API ID"
+
+#~ msgid "Domestic"
+#~ msgstr "Canada"
