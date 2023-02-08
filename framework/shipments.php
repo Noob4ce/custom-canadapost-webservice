@@ -320,9 +320,9 @@ abstract class cpwebservice_shipments
 		<div class="form-group">
     		<label class="col-sm-2 control-label"><?php echo esc_html($this->get_resource('shipment_emailupdates')) ?>:</label>
     		<div class="col-sm-10">
-    		  <label><input type="checkbox" name="email_on_shipment" id="email_on_shipment" value="1" <?php checked( $shipment['email_on_shipment'] ); ?> />  <?php esc_html_e('Email on Shipment', 'woocommerce-canadapost-webservice') ?> </label><br />
- 			  <label><input type="checkbox" name="email_on_exception" id="email_on_exception" value="1" <?php checked( $shipment['email_on_exception'] ); ?> />  <?php esc_html_e('Email if Exception', 'woocommerce-canadapost-webservice') ?> </label><br />
-			  <label><input type="checkbox" name="email_on_delivery" id="email_on_delivery" value="1" <?php checked( $shipment['email_on_delivery'] ); ?> />  <?php esc_html_e('Email on Delivery', 'woocommerce-canadapost-webservice') ?> </label>
+				<label><input type="checkbox" name="email_on_shipment" id="email_on_shipment" value="1" checked <?php checked( $shipment['email_on_shipment'] ); ?> />  <?php esc_html_e('Email on Shipment', 'woocommerce-canadapost-webservice') ?> </label><br />
+ 			  	<label><input type="checkbox" name="email_on_exception" id="email_on_exception" value="1" checked <?php checked( $shipment['email_on_exception'] ); ?> />  <?php esc_html_e('Email if Exception', 'woocommerce-canadapost-webservice') ?> </label><br />
+			  	<label><input type="checkbox" name="email_on_delivery" id="email_on_delivery" value="1" checked <?php checked( $shipment['email_on_delivery'] ); ?> />  <?php esc_html_e('Email on Delivery', 'woocommerce-canadapost-webservice') ?> </label>
 			  <p class="description"><?php esc_html_e('Email will be delivered to email address above.', 'woocommerce-canadapost-webservice')?></p>
     		</div>
 		</div><!-- ./form-group -->	
@@ -450,7 +450,7 @@ abstract class cpwebservice_shipments
     		<label class="col-sm-2 control-label"><?php esc_html_e('Reference number', 'woocommerce-canadapost-webservice') ?>:<br />
     		<p class="description">(<?php esc_html_e('up to 35 characters', 'woocommerce-canadapost-webservice') ?>)</p></label>
     		<div class="col-sm-3">
-    		  <input type="text" name="reference" id="reference" class="form-control" value="<?php echo esc_attr($shipment['reference'])?>" />
+				<input type="text" name="reference" id="reference" class="form-control" value="<?php echo trim(esc_attr($shipment['reference']), 'WC')?>" />
     		</div>
 		</div><!-- ./form-group -->
 		<div class="form-group">
@@ -498,7 +498,7 @@ abstract class cpwebservice_shipments
 			     <select name="opt_delivery_door" id="opt_delivery_door" class="form-control">
 			     <option value=""></option>
 			     <option value="HFP" <?php selected( 'HFP',  $shipment['opt_delivery_door'] ); ?>>Card for pickup</option>
-			     <option value="DNS" <?php selected( 'DNS',  $shipment['opt_delivery_door'] ); ?>>Do not safe drop</option>
+				 <option value="DNS" <?php if ($this->order_prop($order['order'], 'shipping_country') != 'US'){echo "selected";} selected( 'DNS',  $shipment['opt_delivery_door'] ); ?>>Do not safe drop</option>
 			     <option value="LAD" <?php selected( 'LAD',  $shipment['opt_delivery_door'] ); ?>>Leave at door - do not card</option>
 			     </select>
 			  </div>
@@ -525,7 +525,7 @@ abstract class cpwebservice_shipments
     		<div class="col-sm-3">
     		  <select name="payment_method" id="payment_method" class="form-control">
     		  <option value="CreditCard" <?php selected($shipment['payment_method'],'CreditCard')?>><?php esc_html_e('Credit Card', 'woocommerce-canadapost-webservice')?></option>
-    		  <option value="Account" <?php selected($shipment['payment_method'],'Account')?>><?php esc_html_e('Account', 'woocommerce-canadapost-webservice')?></option>
+    		  <option value="Account" selected <?php selected($shipment['payment_method'],'Account')?>><?php esc_html_e('Account', 'woocommerce-canadapost-webservice')?></option>
     		  </select>
     		</div>
 		</div><!-- ./form-group -->
@@ -567,7 +567,7 @@ abstract class cpwebservice_shipments
 					   <option value="DOC" <?php selected( 'DOC' , esc_attr( $shipment['customs_export'] ) ); ?>><?php esc_html_e('Document','woocommerce-canadapost-webservice') ?></option>
 					   <option value="SAM" <?php selected( 'SAM' , esc_attr( $shipment['customs_export'] ) ); ?>><?php esc_html_e('Commercial sample','woocommerce-canadapost-webservice') ?></option>
 					   <option value="REP" <?php selected( 'REP' , esc_attr( $shipment['customs_export'] ) ); ?>><?php esc_html_e('Repair or warranty','woocommerce-canadapost-webservice') ?></option>
-					   <option value="SOG" <?php selected( 'SOG' , esc_attr( $shipment['customs_export'] ) ); ?>><?php esc_html_e('Sale of goods','woocommerce-canadapost-webservice') ?></option>
+					   <option value="SOG" selected <?php selected( 'SOG' , esc_attr( $shipment['customs_export'] ) ); ?>><?php esc_html_e('Sale of goods','woocommerce-canadapost-webservice') ?></option>
 					   <option value="OTH" <?php selected( 'OTH' , esc_attr( $shipment['customs_export'] ) ); ?>><?php esc_html_e('Other (Please specify)','woocommerce-canadapost-webservice') ?></option> 
 					  </select>
 					<div id="customs_export_other_display">
@@ -581,7 +581,7 @@ abstract class cpwebservice_shipments
     		<div class="col-sm-4">
     		   <select name="customs_nondelivery" id="customs_nondelivery" class="form-control" data-rule-required="true">
 					   <option value="" <?php selected( '' , esc_attr( $shipment['customs_nondelivery'] ) ); ?>></option>
-					   <option value="RASE" <?php selected( 'RASE' , esc_attr( $shipment['customs_nondelivery'] ) ); ?>><?php esc_html_e('Return at Sender’s Expense', 'woocommerce-canadapost-webservice') ?></option>
+					   <option value="RASE" selected <?php selected( 'RASE' , esc_attr( $shipment['customs_nondelivery'] ) ); ?>><?php esc_html_e('Return at Sender’s Expense', 'woocommerce-canadapost-webservice') ?></option>
 					   <option value="RTS" <?php selected( 'RTS' , esc_attr( $shipment['customs_nondelivery'] ) ); ?>><?php esc_html_e('Return to Sender', 'woocommerce-canadapost-webservice') ?></option>
 					   <option value="ABAN" <?php selected( 'ABAN' , esc_attr( $shipment['customs_nondelivery'] ) ); ?>><?php esc_html_e('Abandon', 'woocommerce-canadapost-webservice') ?></option>
 			  </select>
@@ -590,7 +590,7 @@ abstract class cpwebservice_shipments
 		<div class="form-group">
     		<label class="col-sm-2 control-label" for="customs_invoice"><?php esc_html_e('Invoice No.', 'woocommerce-canadapost-webservice') ?>:</label>
     		<div class="col-sm-4">
-    		    <input type="text" name="customs_invoice" id="customs_invoice" class="form-control" value="<?php echo esc_attr($shipment['customs_invoice'])?>" />
+				<input type="text" name="customs_invoice" id="customs_invoice" class="form-control" value="<?php echo trim(esc_attr($shipment['reference']), 'WC')?>" />
     		</div>
 		</div><!-- ./form-group -->
 		<div class="form-group">
@@ -655,17 +655,17 @@ abstract class cpwebservice_shipments
     						    <option value="" <?php selected( '', esc_attr( $p['origin_country'] ) ); ?>></option>
     						     <?php if ($origin_countries): ?>
         						<?php foreach ( $origin_countries as $option_key => $option_value ) : ?>
-        						 <option value="<?php echo esc_attr( $option_key ); ?>" <?php selected( $option_key, esc_attr( $p['origin_country'] ) ); ?>><?php echo esc_attr( $option_value ); ?></option>
+        						 <option value="<?php echo esc_attr( $option_key ); ?>" <?php if ($option_value== 'Canada') {echo "selected"; } ?> <?php selected( $option_key, esc_attr( $p['origin_country'] ) ); ?>><?php echo esc_attr( $option_value ); ?></option>
         						<?php endforeach; ?>
         						<?php endif; ?>
             					</select>
 					    </div>
-					    <div class="origin-prov col-md-offset-8 col-sm-6 col-md-4"<?php if($p['origin_country']!=$origin_country){ ?> style="display:none"<?php }?>>
+					    <div class="origin-prov col-md-offset-8 col-sm-6 col-md-4" >
 					         <label class="control-label"><?php esc_html_e('Province of Origin', 'woocommerce-canadapost-webservice') ?>:  </label>
 					         <select name="custom_product_origin_prov[]" class="form-control origin-prov-control">
     						    <option value="" <?php selected( '', esc_attr( $p['origin_prov'] ) ); ?>></option>
         						<?php foreach ( (array) $origin_states as $option_key => $option_value ) : ?>
-        						 <option value="<?php echo esc_attr( $option_key ); ?>" <?php selected( $option_key, esc_attr( $p['origin_prov'] ) ); ?>><?php echo esc_attr( $option_value ); ?></option>
+        						 <option value="<?php echo esc_attr( $option_key ); ?>" <?php if ($option_value== 'Ontario') {echo "selected"; } ?> <?php selected( $option_key, esc_attr( $p['origin_prov'] ) ); ?>><?php echo esc_attr( $option_value ); ?></option>
         						<?php endforeach; ?>
             				 </select>
 					    </div>
